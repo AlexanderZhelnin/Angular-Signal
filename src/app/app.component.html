@@ -1,0 +1,22 @@
+<div>
+  <span>
+    Signal
+  </span>
+  {{computedTitle()}}
+</div>
+
+<div>
+  <span>
+    Observable
+  </span>
+  {{computedTitle$ | async}}
+</div>
+
+<div>
+  <span>
+    mySignal
+  </span>
+  {{myTitle()}}
+</div>
+
+<button (click)="onClick()">Нажать</button>
